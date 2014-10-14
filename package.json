@@ -3,7 +3,6 @@
   "description": "NPM package to interact with the RoQua ROM api",
   "version": "0.0.1",
   "main": "lib/rom_api.js",
-  "private": true,
   "author": [
       "Frank Blaauw", "Ando Emerencia"
   ],
