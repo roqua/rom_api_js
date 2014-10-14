@@ -1,0 +1,19 @@
+{
+  "name": "rom_api",
+  "version": "0.0.1",
+  "main": "lib/rom_api.js",
+  "private": true,
+  "author": [
+      "Frank Blaauw", "Ando Emerencia"
+  ],
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "mocha": "1.21.4",
+    "restler": "3.2.2",
+    "assert": "~1.1.2",
+    "should": "~4.0.4",
+    "sinon": "~1.10.3"
+  }
+}
