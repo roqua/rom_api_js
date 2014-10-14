@@ -26,7 +26,6 @@ describe('Session', function(){
     var session = new Session(restservice);
     it('calls the rest library', function() {
       session.post(url, null, function(data) {
-        // Stub the get
         assert(restPost.called);
         assert(restPost.calledWith(url));
       });
